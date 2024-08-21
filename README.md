@@ -51,3 +51,16 @@ import numpy as np
 arr = np.ones(3)
 print(arr)
 ```
+
+### `5. np.linspace()`:
+
+This function is used to create an array with a specified number of evenly spaced values.
+
+Example Code:
+
+```python
+import numpy as np
+
+arr = np.linspace(0, 1, 5)
+print(arr)
+```
