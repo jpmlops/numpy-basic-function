@@ -11,3 +11,30 @@ arr = np.array([1, 2, 3])
 print(arr)
 
 ```
+
+### `2. np.arange()`:
+
+This function is used to create an array with a range of values.
+
+Example Code:
+
+```python
+import numpy as np
+
+arr = np.arange(1, 6)
+print(arr)
+```
+
+### 3. np.zeros():
+
+This function is used to create an array filled with zeros.
+
+Example Code:
+
+```python
+import numpy as np
+
+arr = np.zeros(3)
+print(arr)
+
+```
