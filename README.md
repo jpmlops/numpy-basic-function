@@ -83,3 +83,53 @@ print(arr)
 [0.5488135  0.71518937 0.60276338]
 
 ```
+
+### 7. np.random.randint():
+
+This function is used to create an array with random integer values between a specified range.
+
+Example Code:
+
+```python
+import numpy as np
+
+arr = np.random.randint(0, 10, 5)
+print(arr)
+# Output:
+
+[1 5 8 9 8]
+```
+
+### 8. np.mean():
+
+This function is used to find the mean value of an array.
+
+Example Code:
+
+```python
+import numpy as np
+
+arr = np.array([1, 2, 3])
+mean_value = np.mean(arr)
+print(mean_value)
+
+# Output:
+2.0
+```
+
+### 9. np.median():
+
+This function is used to find the median value of an array.
+
+Example Code:
+
+```python
+import numpy as np
+
+arr = np.array([1, 2, 3])
+median_value = np.median(arr)
+print(median_value)
+# Output:
+
+2.0
+```
