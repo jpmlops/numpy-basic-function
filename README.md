@@ -64,3 +64,22 @@ import numpy as np
 arr = np.linspace(0, 1, 5)
 print(arr)
 ```
+
+### **6. np.random.rand()**:
+
+This function is used to create an array with random values between 0 and 1.
+
+**Example Code**:
+
+```python
+import numpy as np
+
+arr = np.random.rand(3)
+print(arr)
+
+
+# **Output**:
+
+[0.5488135  0.71518937 0.60276338]
+
+```
