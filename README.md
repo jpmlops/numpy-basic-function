@@ -25,7 +25,7 @@ arr = np.arange(1, 6)
 print(arr)
 ```
 
-### 3. np.zeros():
+### `3. np.zeros()`:
 
 This function is used to create an array filled with zeros.
 
@@ -37,4 +37,17 @@ import numpy as np
 arr = np.zeros(3)
 print(arr)
 
+```
+
+### `4. np.ones()`:
+
+This function is used to create an array filled with ones.
+
+Example Code:
+
+```python
+import numpy as np
+
+arr = np.ones(3)
+print(arr)
 ```
