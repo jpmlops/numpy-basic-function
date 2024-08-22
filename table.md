@@ -62,3 +62,30 @@ print(np.sort(array, axis=0))
 ### numpy.argsort()
 
 This function returns the indices that would sort an array.
+
+## How to add rows and columns in NumPy array?
+
+The problem statement is given NumPy array, the task is to add rows/columns basis on requirements to numpy array.
+
+### Adding Row using numpy.vstack( )
+
+```python
+import numpy as np
+
+array = np.array([
+    [3, 2, 8],
+    [4, 12, 34],
+    [23, 12, 67]
+])
+
+newRow = np.array([2, 1, 8])
+newArray = np.vstack((array, newRow))
+print(newArray)
+
+#Output:
+
+[[ 3 2 8]
+[ 4 12 34]
+[23 12 67]
+[ 2 1 8]]
+```
