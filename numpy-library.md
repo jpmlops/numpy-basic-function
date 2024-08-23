@@ -37,3 +37,13 @@ print(a[0, 1])   # Prints "2"
 b[0, 0] = 77     # b[0, 0] is the same piece of data as a[0, 1]
 print(a[0, 1])   # Prints "77"
 ```
+
+### Mixed Indexing
+
+You can combine basic slicing with integer and boolean indexing.
+
+#### array[start:stop:step]
+
+- `start`: The starting index of the slice (inclusive).
+- `stop`: The ending index of the slice (exclusive).
+- `step`: The step size between each index.
