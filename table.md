@@ -89,3 +89,25 @@ print(newArray)
 [23 12 67]
 [ 2 1 8]]
 ```
+
+### Adding Column using numpy.column_stack( )
+
+```python
+import numpy as np
+
+array = np.array([
+    [3, 2, 8],
+    [4, 12, 34],
+    [23, 12, 67]
+])
+
+newColumn = np.array([2, 1, 8])
+newArray = np.column_stack((array, newColumn))
+print(newArray)
+
+#Output:
+
+[[ 3 2 8 2]
+[ 4 12 34 1]
+[23 12 67 8]]
+```
